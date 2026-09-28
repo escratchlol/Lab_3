@@ -4,9 +4,9 @@ int main() {
     setlocale(LC_ALL, "RUS");
     int a, b;
 
-    printf("Введите число a: ");
+    printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ a: ");
     scanf("%d", &a);
-    printf("Введите число b: ");
+    printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ b: ");
     scanf("%d", &b);
 
     printf("\n");
