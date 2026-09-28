@@ -3,17 +3,17 @@
 int main() {
     setlocale(LC_ALL, "RUS");
     int num;
-    puts("Введите число");
+    puts("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ");
     scanf("%d", &num);
-    printf("Введено число %d\n", num);
+    printf("РІРІРµРґРµРЅРѕ С‡РёСЃР»Рѕ %d\n", num);
     int mun;
-    puts("Введите еще число");
+    puts("РІРІРµРґРёС‚Рµ РµС‰Рµ С‡РёСЃР»Рѕ");
     scanf("%d", &mun);
-    printf("Введено еще число %d\n", mun);
-    printf("Сумма %d\n", num + mun);
-    printf("Разность %d\n", num - mun);
-    printf("Произведение %d\n", num * mun);
-    printf("Частное %d\n", mun / num);
-    printf("Остаток от деления %d\n", mun % num);
+    printf("РІРІРµРґРµРЅРѕ РµС‰Рµ С‡РёСЃР»Рѕ %d\n", mun);
+    printf("СЃСѓРјРјР° %d\n", num + mun);
+    printf("СЂР°Р·РЅРѕСЃС‚СЊ %d\n", num - mun);
+    printf("РїСЂРѕРёР·РІРµРґРµРЅРёРµ %d\n", num * mun);
+    printf("С‡Р°СЃС‚РЅРѕРµ %d\n", mun / num);
+    printf("РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ %d\n", mun % num);
     return 0;
 }
