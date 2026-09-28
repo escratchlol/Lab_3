@@ -9,12 +9,12 @@ int main() {
     float light_years;
     float au;
 
-    printf("введите число световых лет: ");
+    printf("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЃРІРµС‚РѕРІС‹С… Р»РµС‚: ");
     scanf("%f", &light_years);
 
     au = light_years * kolichestvo;
 
-    printf("\n%.2f световых лет = %.2f а.е.\n", light_years, au);
+    printf("\n%.2f СЃРІРµС‚РѕРІС‹С… Р»РµС‚ = %.2f Г .ГҐ.\n", light_years, au);
 
     return 0;
 }
